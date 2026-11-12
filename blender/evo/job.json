@@ -1,1 +1,34 @@
-{"rev": 0, "mode": "idle"}
+{
+ "rev": 104,
+ "mode": "video",
+ "only": "k01,a04,d05,d02,h04,c13,a01,p12,a03",
+ "chunk": 24,
+ "chunk_by_world": {
+  "young_earth": 8,
+  "cambrian": 8,
+  "shallows": 8,
+  "ediacaran": 8,
+  "devonian_sea": 8,
+  "permian": 12,
+  "triassic": 12,
+  "jurassic": 12,
+  "cretaceous": 12,
+  "paleogene": 12,
+  "savanna": 12,
+  "impact": 12,
+  "coast": 12,
+  "coast_cretaceous": 12
+ },
+ "handle": 0.25,
+ "env": {
+  "RW": "1920",
+  "RH": "1080",
+  "SAMPLES": "32",
+  "ADAPT": ".02"
+ },
+ "w": 1920,
+ "h": 1080,
+ "samples": 32,
+ "skip_file": "done_chunks.json",
+ "kaggle_repo": "chintudagar541-stack/wanderly"
+}
